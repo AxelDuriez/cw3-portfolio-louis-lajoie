@@ -16,6 +16,7 @@
 // Permet de réinitialiser les CSS et de changer le modèle de boîte en box-sizing: border-box
 
 //@import "normalize";
+@import "normalize";
 @import "generic/reset";
 
 // ELEMENTS
@@ -31,7 +32,8 @@
 // Composants d'interface utilisateur spécifiques.
 // C’est là que la majorité de notre travail a lieu.
 
-
+@import "components/header-page";
+@import "components/hero";
 
 // UTILITIES
 // Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
